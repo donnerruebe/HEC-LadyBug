@@ -202,4 +202,5 @@
   (lib (name I2C)(type Legacy)(uri ${KIPRJMOD}/../mt-common-libs/library/I2C.lib)(options "")(descr ""))
   (lib (name Device_MT)(type Legacy)(uri ${KIPRJMOD}/../mt-common-libs/library/Device.lib)(options "")(descr ""))
   (lib (name one-wire)(type Legacy)(uri ${KIPRJMOD}/../mt-common-libs/library/one-wire.lib)(options "")(descr ""))
+  (lib (name PowerManagement)(type Legacy)(uri ${KIPRJMOD}/../mt-common-libs/library/PowerManagement.lib)(options "")(descr ""))
 )

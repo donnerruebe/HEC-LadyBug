@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title "Marienkäfer HEC-Basis-Bord"
 Date "2020-12-28"
 Rev "0001"
@@ -361,11 +361,11 @@ Connection ~ 3800 8250
 Wire Wire Line
 	3800 8250 3800 8050
 Text HLabel 1800 8150 0    50   Input ~ 0
-HEC_Data_out
+HEC_Bitstream_out
 Wire Wire Line
 	4050 7950 3450 7950
 Text HLabel 1800 7950 0    50   Output ~ 0
-HEC_Data_in
+HEC_Bitstream_in
 $Comp
 L 74xGxx:74AUP1G57 IC?
 U 1 1 5FF28070
