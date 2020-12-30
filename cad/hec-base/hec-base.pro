@@ -1,4 +1,4 @@
-update=Mo 28 Dez 2020 17:32:57 CET
+update=Mi 30 Dez 2020 19:56:17 CET
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=${KIPRJMOD}/../mt-common-libs/_pagelayout_.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=../../SLP/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
