@@ -306,7 +306,7 @@ U 1 1 608CD3CA
 P 12150 5550
 F 0 "J101" H 12068 4725 50  0000 C CNN
 F 1 "Micromatch 12p" H 12068 4816 50  0000 C CNN
-F 2 "" H 12150 5550 50  0001 C CNN
+F 2 "Connectors_MicroMatch_MT:ConnectorMicromatch-12-horizontal-THT" H 12150 5550 50  0001 C CNN
 F 3 "~" H 12150 5550 50  0001 C CNN
 	1    12150 5550
 	1    0    0    1   
@@ -459,7 +459,7 @@ U 1 1 60916687
 P 12150 8150
 F 0 "J103" H 12068 7525 50  0000 C CNN
 F 1 "Micromatch 8p" H 12250 7600 50  0000 C CNN
-F 2 "" H 12150 8150 50  0001 C CNN
+F 2 "Connectors_MicroMatch_MT:ConnectorMicromatch-8-horizontal-THT" H 12150 8150 50  0001 C CNN
 F 3 "~" H 12150 8150 50  0001 C CNN
 	1    12150 8150
 	1    0    0    1   

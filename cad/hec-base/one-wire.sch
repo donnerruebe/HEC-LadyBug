@@ -49,7 +49,7 @@ AR Path="/6037F603/6083020F" Ref="R?"  Part="1"
 AR Path="/6082A275/6083020F" Ref="R501"  Part="1" 
 F 0 "R501" H 6020 3096 50  0000 L CNN
 F 1 "22R" H 6020 3005 50  0000 L CNN
-F 2 "" V 5880 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 3050 50  0001 C CNN
 F 3 "~" H 5950 3050 50  0001 C CNN
 	1    5950 3050
 	1    0    0    -1  
@@ -64,7 +64,7 @@ AR Path="/6037F603/60830216" Ref="R?"  Part="1"
 AR Path="/6082A275/60830216" Ref="R503"  Part="1" 
 F 0 "R503" V 5493 4000 50  0000 C CNN
 F 1 "22R" V 5584 4000 50  0000 C CNN
-F 2 "" V 5630 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 4000 50  0001 C CNN
 F 3 "~" H 5700 4000 50  0001 C CNN
 	1    5700 4000
 	0    1    1    0   
@@ -123,7 +123,7 @@ AR Path="/6037F603/60830233" Ref="FL?"  Part="1"
 AR Path="/6082A275/60830233" Ref="FL502"  Part="1" 
 F 0 "FL502" H 6500 4417 50  0000 C CNN
 F 1 "NFE61P681B1H9L" H 6500 4326 50  0000 C CNN
-F 2 "" V 6500 4100 50  0001 C CNN
+F 2 "Filter_MT:Murata_NFE61P" V 6500 4100 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 6500 4100 50  0001 C CNN
 	1    6500 4100
 	1    0    0    -1  
@@ -152,7 +152,7 @@ AR Path="/6037F603/60830241" Ref="FL?"  Part="1"
 AR Path="/6082A275/60830241" Ref="FL501"  Part="1" 
 F 0 "FL501" H 7050 3667 50  0000 C CNN
 F 1 "NFE61P681B1H9L" H 7050 3576 50  0000 C CNN
-F 2 "" V 7050 3350 50  0001 C CNN
+F 2 "Filter_MT:Murata_NFE61P" V 7050 3350 50  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 7050 3350 50  0001 C CNN
 	1    7050 3350
 	1    0    0    -1  
@@ -253,7 +253,7 @@ AR Path="/6037F603/60830274" Ref="R?"  Part="1"
 AR Path="/6082A275/60830274" Ref="R502"  Part="1" 
 F 0 "R502" H 7870 3596 50  0000 L CNN
 F 1 "22R" H 7870 3505 50  0000 L CNN
-F 2 "" V 7730 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7730 3550 50  0001 C CNN
 F 3 "~" H 7800 3550 50  0001 C CNN
 	1    7800 3550
 	1    0    0    -1  
@@ -342,7 +342,7 @@ AR Path="/6037F603/608302A2" Ref="R?"  Part="1"
 AR Path="/6082A275/608302A2" Ref="R504"  Part="1" 
 F 0 "R504" H 3600 4400 50  0000 L CNN
 F 1 "22R" H 3670 4205 50  0000 L CNN
-F 2 "" V 3530 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3530 4250 50  0001 C CNN
 F 3 "~" H 3600 4250 50  0001 C CNN
 	1    3600 4250
 	1    0    0    -1  
@@ -355,7 +355,7 @@ AR Path="/6037F603/608302A8" Ref="R?"  Part="1"
 AR Path="/6082A275/608302A8" Ref="R505"  Part="1" 
 F 0 "R505" H 3900 4400 50  0000 L CNN
 F 1 "22R" H 3970 4205 50  0000 L CNN
-F 2 "" V 3830 4250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 4250 50  0001 C CNN
 F 3 "~" H 3900 4250 50  0001 C CNN
 	1    3900 4250
 	1    0    0    -1  
@@ -541,7 +541,7 @@ AR Path="/6037F603/60830304" Ref="R?"  Part="1"
 AR Path="/6082A275/60830304" Ref="R506"  Part="1" 
 F 0 "R506" H 2420 5596 50  0000 L CNN
 F 1 "1k" H 2420 5505 50  0000 L CNN
-F 2 "" V 2280 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 5550 50  0001 C CNN
 F 3 "~" H 2350 5550 50  0001 C CNN
 	1    2350 5550
 	1    0    0    -1  
