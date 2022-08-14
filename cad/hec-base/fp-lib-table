@@ -138,4 +138,5 @@
   (lib (name Socket_MT)(type KiCad)(uri ${KIPRJMOD}/../mt-common-libs/modules/Socket_MT.pretty)(options "")(descr ""))
   (lib (name SparkGaps_MT)(type KiCad)(uri ${KIPRJMOD}/../mt-common-libs/modules/SparkGaps_MT.pretty)(options "")(descr ""))
   (lib (name Filter_MT)(type KiCad)(uri ${KIPRJMOD}/../mt-common-libs/modules/Filter_MT.pretty)(options "")(descr ""))
+  (lib (name Tag-Connect)(type KiCad)(uri ${KIPRJMOD}/../mt-common-libs/tag-connect/Tag-Connect.pretty)(options "")(descr ""))
 )

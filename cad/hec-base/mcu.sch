@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 5
-Title "Marienkäfer HEC-Basis-Bord: Microcontroller"
+Title "Marienkaefer HEC-Basis-Bord: Microcontroller"
 Date "2020-12-30"
 Rev "0001"
 Comp "MTRONIG GmbH&Co.KG"
@@ -238,17 +238,6 @@ F 3 "~" H 12350 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP402
-U 1 1 60535508
-P 11550 7550
-F 0 "TP402" H 11608 7668 50  0000 L CNN
-F 1 "TRST" H 11608 7577 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 11750 7550 50  0001 C CNN
-F 3 "~" H 11750 7550 50  0001 C CNN
-	1    11550 7550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP403
 U 1 1 605356FD
 P 11850 7550
@@ -286,77 +275,66 @@ JTAG-Interface
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J402
 U 1 1 6053744E
-P 10500 7950
-F 0 "J402" H 10550 8367 50  0000 C CNN
-F 1 "Cortex-Debug WSL 2x5 RM1.27" H 10550 8276 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 10500 7950 50  0001 C CNN
-F 3 "~" H 10500 7950 50  0001 C CNN
-	1    10500 7950
+P 10400 7950
+F 0 "J402" H 10450 8350 50  0000 C CNN
+F 1 "Tag-Connect 2x5" H 10450 8250 50  0000 C CNN
+F 2 "Tag-Connect:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical" H 10400 7950 50  0001 C CNN
+F 3 "~" H 10400 7950 50  0001 C CNN
+	1    10400 7950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP403
 U 1 1 6053843A
-P 9750 7750
-F 0 "JP403" H 9750 7863 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 9750 7864 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9750 7750 50  0001 C CNN
-F 3 "~" H 9750 7750 50  0001 C CNN
-	1    9750 7750
+P 9500 7750
+F 0 "JP403" H 9500 7863 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9500 7864 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9500 7750 50  0001 C CNN
+F 3 "~" H 9500 7750 50  0001 C CNN
+	1    9500 7750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9900 7750 10300 7750
+	9650 7750 10200 7750
 $Comp
 L power:+3V3 #PWR0408
 U 1 1 6053950A
-P 9250 7550
-F 0 "#PWR0408" H 9250 7400 50  0001 C CNN
-F 1 "+3V3" H 9265 7723 50  0000 C CNN
-F 2 "" H 9250 7550 50  0001 C CNN
-F 3 "" H 9250 7550 50  0001 C CNN
-	1    9250 7550
+P 9150 7550
+F 0 "#PWR0408" H 9150 7400 50  0001 C CNN
+F 1 "+3V3" H 9165 7723 50  0000 C CNN
+F 2 "" H 9150 7550 50  0001 C CNN
+F 3 "" H 9150 7550 50  0001 C CNN
+	1    9150 7550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 7550 9250 7750
-Wire Wire Line
-	9250 7750 9600 7750
+	9150 7550 9150 7750
 $Comp
 L power:GNDD #PWR0409
 U 1 1 6053A28D
-P 10150 8450
-F 0 "#PWR0409" H 10150 8200 50  0001 C CNN
-F 1 "GNDD" H 10154 8295 50  0000 C CNN
-F 2 "" H 10150 8450 50  0001 C CNN
-F 3 "" H 10150 8450 50  0001 C CNN
-	1    10150 8450
+P 9250 8450
+F 0 "#PWR0409" H 9250 8200 50  0001 C CNN
+F 1 "GNDD" H 9254 8295 50  0000 C CNN
+F 2 "" H 9250 8450 50  0001 C CNN
+F 3 "" H 9250 8450 50  0001 C CNN
+	1    9250 8450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 8150 10150 8150
+	9250 8150 9250 8300
+Connection ~ 9250 8150
 Wire Wire Line
-	10150 8150 10150 8450
+	10200 7850 9250 7850
 Wire Wire Line
-	10300 7950 10150 7950
-Wire Wire Line
-	10150 7950 10150 8150
-Connection ~ 10150 8150
-Wire Wire Line
-	10300 7850 10150 7850
-Wire Wire Line
-	10150 7850 10150 7950
-Connection ~ 10150 7950
-Wire Wire Line
-	10800 8150 11850 8150
+	10700 8150 11850 8150
 Text Label 13600 8150 2    50   ~ 0
 ~RESET~
 Wire Wire Line
-	10800 7950 12750 7950
+	10700 7950 12750 7950
 Wire Wire Line
-	10800 7850 12150 7850
+	10700 7850 12150 7850
 Wire Wire Line
-	10800 7750 11250 7750
+	10700 7750 11250 7750
 Text Label 13600 7750 2    50   ~ 0
 SWDIO_TMS
 Text Label 13600 7850 2    50   ~ 0
@@ -365,9 +343,9 @@ Text Label 13600 7950 2    50   ~ 0
 TDO
 Text Label 13600 8050 2    50   ~ 0
 TDI
-NoConn ~ 10300 8050
-Text Notes 9150 8100 0    50   ~ 0
-Pin 7 ist ein Key-Pin, \nnormal entfernen (ziehen)
+NoConn ~ 10200 8050
+Text Notes 9500 9000 0    50   ~ 0
+Pin 5 should be grounded, but some debuggers \nsupply 5V here or 3V3 (i.e. STLINK/V2).\nPin 7 is a Key-Pin for SWDIO, normally \nremove (pull out), RTCK for JTAG is not available,\nPin 9 can be grounded for SWDIO, but \nconnected to ~TRST~ for JTAG.
 Wire Wire Line
 	11250 7550 11250 7750
 Connection ~ 11250 7750
@@ -384,7 +362,7 @@ Wire Wire Line
 Wire Wire Line
 	12450 7550 12450 8050
 Wire Wire Line
-	10800 8050 12450 8050
+	10700 8050 12450 8050
 Connection ~ 12450 8050
 Wire Wire Line
 	12450 8050 13600 8050
@@ -532,105 +510,77 @@ Wire Wire Line
 Wire Wire Line
 	7350 5000 2600 5000
 Text HLabel 7350 4900 2    50   Output ~ 0
-HEC-Bitstream-out
+HEC-Bitstream-out-FT
 Text HLabel 7350 5000 2    50   Input ~ 0
-HEC-Bitstream-in
+HEC-Bitstream-in-FT
 $Comp
 L Device:R R408
 U 1 1 6056695C
-P 7100 4650
-F 0 "R408" H 7170 4696 50  0000 L CNN
-F 1 "4k7" H 7170 4605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 4650 50  0001 C CNN
-F 3 "~" H 7100 4650 50  0001 C CNN
-	1    7100 4650
+P 7100 3700
+F 0 "R408" H 7170 3746 50  0000 L CNN
+F 1 "4k7" H 7170 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 3700 50  0001 C CNN
+F 3 "~" H 7100 3700 50  0001 C CNN
+	1    7100 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 4800 7100 4900
+	7100 3850 7100 4900
 Connection ~ 7100 4900
 Wire Wire Line
 	7100 4900 7350 4900
 $Comp
-L power:+3V3 #PWR0404
-U 1 1 6056894A
-P 7100 4450
-F 0 "#PWR0404" H 7100 4300 50  0001 C CNN
-F 1 "+3V3" H 7115 4623 50  0000 C CNN
-F 2 "" H 7100 4450 50  0001 C CNN
-F 3 "" H 7100 4450 50  0001 C CNN
-	1    7100 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7100 4450 7100 4500
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J401
+L Tag-Connect:TC2030-IDC-console J401
 U 1 1 6056AC99
-P 7750 2450
-F 0 "J401" H 7800 2125 50  0000 C CNN
-F 1 "Micromatch 6p" H 7800 2216 50  0000 C CNN
-F 2 "Connectors_MicroMatch_MT:ConnectorMicromatch-6-SMD-polarized" H 7750 2450 50  0001 C CNN
-F 3 "~" H 7750 2450 50  0001 C CNN
-	1    7750 2450
+P 8150 2350
+F 0 "J401" H 8150 1900 50  0000 C CNN
+F 1 "Tag-Connect 2x3" H 8150 2000 50  0000 C CNN
+F 2 "Tag-Connect:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 8150 2350 50  0001 C CNN
+F 3 "~" H 8150 2350 50  0001 C CNN
+	1    8150 2350
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GNDD #PWR0402
 U 1 1 6056BF5B
-P 7350 3350
-F 0 "#PWR0402" H 7350 3100 50  0001 C CNN
-F 1 "GNDD" H 7354 3195 50  0000 C CNN
-F 2 "" H 7350 3350 50  0001 C CNN
-F 3 "" H 7350 3350 50  0001 C CNN
-	1    7350 3350
+P 7550 3350
+F 0 "#PWR0402" H 7550 3100 50  0001 C CNN
+F 1 "GNDD" H 7554 3195 50  0000 C CNN
+F 2 "" H 7550 3350 50  0001 C CNN
+F 3 "" H 7550 3350 50  0001 C CNN
+	1    7550 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C401
 U 1 1 6056C8B2
-P 7350 3050
-F 0 "C401" H 7465 3096 50  0000 L CNN
-F 1 "100nF" H 7465 3005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7388 2900 50  0001 C CNN
-F 3 "~" H 7350 3050 50  0001 C CNN
-	1    7350 3050
+P 7550 3050
+F 0 "C401" H 7665 3096 50  0000 L CNN
+F 1 "100nF" H 7665 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7588 2900 50  0001 C CNN
+F 3 "~" H 7550 3050 50  0001 C CNN
+	1    7550 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 2550 7100 2050
+	7550 3200 7550 3300
 Wire Wire Line
-	7100 2050 8050 2050
+	7550 3300 8450 3300
 Wire Wire Line
-	8050 2050 8050 2350
+	8450 3300 8450 2450
 Wire Wire Line
-	8050 2350 7950 2350
+	8450 2450 8400 2450
+Connection ~ 7550 3300
 Wire Wire Line
-	7350 2550 7450 2550
-Connection ~ 7350 2550
+	7550 3300 7550 3350
 Wire Wire Line
-	7350 2550 7350 2900
+	7250 2250 7250 2750
 Wire Wire Line
-	7350 3200 7350 3300
+	7250 2750 5950 2750
 Wire Wire Line
-	7350 3300 8000 3300
+	8400 2350 8550 2350
 Wire Wire Line
-	8000 3300 8000 2550
-Wire Wire Line
-	8000 2550 7950 2550
-Connection ~ 7350 3300
-Wire Wire Line
-	7350 3300 7350 3350
-Wire Wire Line
-	7450 2350 7200 2350
-Wire Wire Line
-	7200 2350 7200 2750
-Wire Wire Line
-	7200 2750 5950 2750
-Wire Wire Line
-	7950 2450 8100 2450
-Wire Wire Line
-	8100 2450 8100 2650
+	8550 2350 8550 2650
 Wire Wire Line
 	5950 2350 5950 2750
 Connection ~ 5950 2750
@@ -641,19 +591,13 @@ Wire Wire Line
 Wire Wire Line
 	2600 2950 6350 2950
 Wire Wire Line
-	6850 2450 7450 2450
-Connection ~ 6850 2450
-Wire Wire Line
 	6850 2350 6850 2450
-Wire Wire Line
-	6550 2550 7100 2550
-Connection ~ 6550 2550
 Wire Wire Line
 	6550 2350 6550 2550
 Wire Wire Line
 	2600 2450 6850 2450
 Wire Wire Line
-	8100 2650 6250 2650
+	8550 2650 6250 2650
 Connection ~ 6250 2650
 Wire Wire Line
 	6250 2350 6250 2650
@@ -661,41 +605,38 @@ Wire Wire Line
 	2600 2550 6550 2550
 Wire Wire Line
 	6250 2650 2600 2650
-Text Notes 7550 1950 0    50   ~ 0
+Text Notes 7800 1850 0    50   ~ 0
 Console und Bootstrap
-Connection ~ 6250 1950
+Connection ~ 6250 1800
 Wire Wire Line
-	5950 1950 5950 2050
+	5950 1800 5950 2050
 Wire Wire Line
-	6250 1950 5950 1950
-Connection ~ 6550 1950
+	6250 1800 5950 1800
+Connection ~ 6550 1800
 Wire Wire Line
-	6250 1950 6250 2050
+	6250 1800 6250 2050
 Wire Wire Line
-	6550 1950 6250 1950
-Connection ~ 6850 1950
+	6550 1800 6250 1800
+Connection ~ 6850 1800
 Wire Wire Line
-	6550 1950 6550 2050
+	6550 1800 6550 2050
 Wire Wire Line
-	6850 1950 6550 1950
+	6850 1800 6550 1800
 Wire Wire Line
-	7350 1950 7350 2550
-Connection ~ 7350 1950
+	6850 1800 6850 2050
 Wire Wire Line
-	6850 1950 6850 2050
+	7550 1800 6850 1800
 Wire Wire Line
-	7350 1950 6850 1950
-Wire Wire Line
-	7350 1750 7350 1950
+	7550 1600 7550 1800
 $Comp
 L power:+3V3 #PWR0401
 U 1 1 6057BFA0
-P 7350 1750
-F 0 "#PWR0401" H 7350 1600 50  0001 C CNN
-F 1 "+3V3" H 7365 1923 50  0000 C CNN
-F 2 "" H 7350 1750 50  0001 C CNN
-F 3 "" H 7350 1750 50  0001 C CNN
-	1    7350 1750
+P 7550 1600
+F 0 "#PWR0401" H 7550 1450 50  0001 C CNN
+F 1 "+3V3" H 7565 1773 50  0000 C CNN
+F 2 "" H 7550 1600 50  0001 C CNN
+F 3 "" H 7550 1600 50  0001 C CNN
+	1    7550 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -802,8 +743,6 @@ Wire Wire Line
 Connection ~ 5500 4500
 Wire Wire Line
 	5500 4500 5950 4500
-Text Notes 8100 2300 0    50   ~ 0
-oder \nWSL 2x3 RM2.54
 Wire Wire Line
 	2600 2250 4650 2250
 Text Label 6350 5100 2    50   ~ 0
@@ -843,9 +782,9 @@ Wire Wire Line
 	2600 1950 4650 1950
 Text HLabel 4650 1950 2    50   Input ~ 0
 VccSNS24V
-Text HLabel 4650 2050 2    50   Input ~ 0
-VccSNS5V
 Text HLabel 4650 2150 2    50   Input ~ 0
+VccSNS5V
+Text HLabel 4650 2050 2    50   Input ~ 0
 VccSNS3V3
 Text HLabel 5950 4500 2    50   BiDi ~ 0
 SCL_FT
@@ -926,9 +865,100 @@ PA0_GPIO_U2CTS_AIN0
 Text HLabel 4650 2250 2    50   Output ~ 0
 Neopixel-Data
 Wire Wire Line
-	11550 7550 11550 9150
+	11550 7550 11550 8300
 Wire Wire Line
 	11550 9150 10350 9150
 Text Label 10350 9150 0    50   ~ 0
 ~TRST~
+Text Notes 7950 11300 0    50   ~ 0
+TODO:\no STM32F0xx als Alternativ-Bestückung prüfen/vorsehen, entsprechend Pins beschalten\no STM32F30x als Alternativ-Bestückung prüfen/vorsehen, entsprechend Pins beschalten\no STM32F7xx als Alternativ-Bestückung prüfen/vorsehen, entsprechend Pins beschalten
+Wire Wire Line
+	8550 2250 8550 1950
+Wire Wire Line
+	7150 1950 8550 1950
+Wire Wire Line
+	8400 2250 8550 2250
+$Comp
+L Jumper:SolderJumper_3_Open JP404
+U 1 1 63091EDA
+P 9000 7950
+F 0 "JP404" V 9000 8017 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 8955 8017 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 9000 7950 50  0001 C CNN
+F 3 "~" H 9000 7950 50  0001 C CNN
+	1    9000 7950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9250 7850 9250 8150
+Wire Wire Line
+	9150 7750 9000 7750
+Connection ~ 9150 7750
+Wire Wire Line
+	9150 7950 10200 7950
+Wire Wire Line
+	9000 8150 9250 8150
+$Comp
+L Jumper:SolderJumper_3_Open JP405
+U 1 1 630CAAB0
+P 9500 8300
+F 0 "JP405" H 9500 8413 50  0000 C CNN
+F 1 "SolderJumper_3_Open" V 9455 8367 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 9500 8300 50  0001 C CNN
+F 3 "~" H 9500 8300 50  0001 C CNN
+	1    9500 8300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9300 8300 9250 8300
+Connection ~ 9250 8300
+Wire Wire Line
+	9250 8300 9250 8450
+Wire Wire Line
+	10200 8150 9500 8150
+Wire Wire Line
+	9150 7750 9350 7750
+Wire Wire Line
+	9700 8300 11550 8300
+Connection ~ 11550 8300
+Wire Wire Line
+	11550 8300 11550 9150
+Wire Wire Line
+	7250 2250 7900 2250
+Wire Wire Line
+	7900 2350 7350 2350
+Wire Wire Line
+	7900 2450 7550 2450
+$Comp
+L Connector:TestPoint TP402
+U 1 1 60535508
+P 11550 7550
+F 0 "TP402" H 11608 7668 50  0000 L CNN
+F 1 "TRST" H 11608 7577 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 11750 7550 50  0001 C CNN
+F 3 "~" H 11750 7550 50  0001 C CNN
+	1    11550 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2550 7150 2550
+Wire Wire Line
+	7150 2550 7150 1950
+Connection ~ 6550 2550
+Wire Wire Line
+	7350 2350 7350 2450
+Wire Wire Line
+	7350 2450 6850 2450
+Connection ~ 6850 2450
+Wire Wire Line
+	7550 1800 7550 2450
+Connection ~ 7550 1800
+Wire Wire Line
+	7550 2900 7550 2450
+Connection ~ 7550 2450
+Wire Wire Line
+	5500 3450 7100 3450
+Wire Wire Line
+	7100 3450 7100 3550
+Connection ~ 5500 3450
 $EndSCHEMATC

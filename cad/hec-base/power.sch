@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 5
-Title "Marienkäfer HEC-Basis-Bord: Stromversorgung"
+Title "Marienkaefer HEC-Basis-Bord: Stromversorgung"
 Date "2020-12-29"
 Rev "0001"
 Comp "MTRONIG GmbH&Co.KG"
@@ -106,7 +106,7 @@ F 3 "~" H 7600 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:L_Core_Ferrite L201
+L Device:L_Ferrite L201
 U 1 1 601394EC
 P 8050 1650
 F 0 "L201" V 8275 1650 50  0000 C CNN
@@ -272,7 +272,7 @@ F 3 "~" H 6700 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL202
+L Device:Filter_EMI_LCL FL202
 U 1 1 6014A133
 P 9900 1750
 F 0 "FL202" H 9900 2067 50  0000 C CNN
@@ -290,7 +290,7 @@ Connection ~ 8750 2650
 Wire Wire Line
 	10900 1650 10300 1650
 $Comp
-L Device:EMI_Filter_LCL FL203
+L Device:Filter_EMI_LCL FL203
 U 1 1 6015060B
 P 10900 4200
 F 0 "FL203" H 10900 4517 50  0000 C CNN
@@ -301,7 +301,7 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL201
+L Device:Filter_EMI_LCL FL201
 U 1 1 60151B34
 P 3050 1100
 F 0 "FL201" H 3050 1417 50  0000 C CNN
@@ -322,11 +322,11 @@ Connection ~ 3050 2650
 Wire Wire Line
 	3050 2650 4200 2650
 $Comp
-L Device:L_Core_Ferrite L202
+L Device:L_Ferrite L202
 U 1 1 60157375
 P 8950 4100
 F 0 "L202" V 9175 4100 50  0000 C CNN
-F 1 "2,2uH, 1,15A, 0R105 WE 744029002" V 9084 4100 50  0000 C CNN
+F 1 "2,5uH, 1,25A, 0R05 WE 744031002" V 9084 4100 50  0000 C CNN
 F 2 "Inductor_SMD:L_Wuerth_WE-TPC-3816" H 8950 4100 50  0001 C CNN
 F 3 "~" H 8950 4100 50  0001 C CNN
 	1    8950 4100
@@ -697,79 +697,33 @@ Connection ~ 4500 6650
 Wire Wire Line
 	4500 6650 3950 6650
 $Comp
-L 74xGxx:74AUP1G57 IC203
-U 1 1 60212CEA
-P 7600 6800
-F 0 "IC203" H 7800 7100 50  0000 C CNN
-F 1 "74LVC1G57" H 7900 7000 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7600 6800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7600 6800 50  0001 C CNN
-	1    7600 6800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDD #PWR0208
 U 1 1 60212F05
-P 7600 7450
-F 0 "#PWR0208" H 7600 7200 50  0001 C CNN
-F 1 "GNDD" H 7604 7295 50  0000 C CNN
-F 2 "" H 7600 7450 50  0001 C CNN
-F 3 "" H 7600 7450 50  0001 C CNN
-	1    7600 7450
+P 7400 7000
+F 0 "#PWR0208" H 7400 6750 50  0001 C CNN
+F 1 "GNDD" H 7404 6845 50  0000 C CNN
+F 2 "" H 7400 7000 50  0001 C CNN
+F 3 "" H 7400 7000 50  0001 C CNN
+	1    7400 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C213
 U 1 1 602132EE
-P 7050 7150
-F 0 "C213" H 7200 7400 50  0000 R CNN
-F 1 "100nF" H 7200 7500 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7088 7000 50  0001 C CNN
-F 3 "~" H 7050 7150 50  0001 C CNN
-	1    7050 7150
+P 9800 7150
+F 0 "C213" H 9914 7104 50  0000 L CNN
+F 1 "100nF" H 9914 7195 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9838 7000 50  0001 C CNN
+F 3 "~" H 9800 7150 50  0001 C CNN
+	1    9800 7150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4250 6750 4250 6000
+	8000 6800 8200 6800
 Wire Wire Line
-	4250 6000 7600 6000
+	7500 6800 6050 6800
 Wire Wire Line
-	7600 6000 7600 6400
-Connection ~ 4250 6750
-Wire Wire Line
-	4250 6750 4900 6750
-Wire Wire Line
-	7600 6950 7600 7350
-Wire Wire Line
-	7050 7300 7050 7350
-Wire Wire Line
-	7050 7350 7250 7350
-Connection ~ 7600 7350
-Wire Wire Line
-	7600 7350 7600 7450
-Wire Wire Line
-	7600 6400 7050 6400
-Wire Wire Line
-	7050 6400 7050 6900
-Connection ~ 7600 6400
-Wire Wire Line
-	7600 6400 7600 6650
-Wire Wire Line
-	7850 6800 8550 6800
-Wire Wire Line
-	7350 6800 6050 6800
-Wire Wire Line
-	7350 6700 7250 6700
-Wire Wire Line
-	7250 6700 7250 7350
-Connection ~ 7250 7350
-Wire Wire Line
-	7250 7350 7600 7350
-Wire Wire Line
-	7350 6900 7050 6900
-Connection ~ 7050 6900
-Wire Wire Line
-	7050 6900 7050 7000
+	7500 6700 7400 6700
 $Comp
 L Device:LED D204
 U 1 1 60247B0C
@@ -841,7 +795,7 @@ Wire Wire Line
 Connection ~ 4250 6850
 Wire Wire Line
 	4250 6850 2600 6850
-Text HLabel 8550 6800 2    50   Output ~ 0
+Text HLabel 8750 6800 2    50   Output ~ 0
 ~RESET~
 Text HLabel 8550 7900 2    50   Output ~ 0
 Vcc24VSNS_1.25Vref
@@ -1093,8 +1047,6 @@ Wire Wire Line
 	3500 6750 3500 9000
 Connection ~ 3500 6750
 Wire Wire Line
-	3500 6750 4250 6750
-Wire Wire Line
 	5150 9550 5150 8600
 Wire Wire Line
 	5150 8600 8550 8600
@@ -1332,9 +1284,9 @@ Connection ~ 10950 6650
 Wire Wire Line
 	10950 6650 11400 6650
 Wire Wire Line
-	10700 6650 10150 6650
+	10700 6650 10250 6650
 Connection ~ 10700 6650
-Text Label 10150 6650 0    50   ~ 0
+Text Label 9400 6650 0    50   ~ 0
 Vcc3V3
 Text Notes 10450 4600 1    50   ~ 0
 2x
@@ -1410,4 +1362,86 @@ F 3 "~" H 4200 2050 50  0001 C CNN
 	1    4200 2050
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	7050 6350 7050 6900
+$Comp
+L Logic_74xGxx_MT:74LVC1G57 IC203
+U 1 1 60212CEA
+P 7600 6950
+F 0 "IC203" H 7750 7417 50  0000 C CNN
+F 1 "74LVC1G57" H 7750 7326 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 7600 6950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 7600 6950 50  0001 C CNN
+	1    7600 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_74xGxx_MT:74LVC1G57 IC203
+U 2 1 63330CB8
+P 10100 7200
+F 0 "IC203" H 10100 7150 50  0000 L CNN
+F 1 "74LVC1G57" H 10100 7050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 10100 7200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 10100 7200 50  0001 C CNN
+	2    10100 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 633B9556
+P 10300 1450
+F 0 "#FLG0105" H 10300 1525 50  0001 C CNN
+F 1 "PWR_FLAG" H 10300 1623 50  0000 C CNN
+F 2 "" H 10300 1450 50  0001 C CNN
+F 3 "~" H 10300 1450 50  0001 C CNN
+	1    10300 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 1450 10300 1650
+Wire Wire Line
+	10250 6800 10250 6650
+Connection ~ 10250 6650
+Wire Wire Line
+	10250 6650 9800 6650
+Wire Wire Line
+	10700 8000 10050 8000
+Wire Wire Line
+	10050 8000 10050 7300
+Connection ~ 10700 8000
+Wire Wire Line
+	7050 6900 7500 6900
+Wire Wire Line
+	9800 7000 9800 6650
+Connection ~ 9800 6650
+Wire Wire Line
+	9800 6650 9400 6650
+Wire Wire Line
+	9800 7300 9800 8000
+Wire Wire Line
+	9800 8000 10050 8000
+Connection ~ 10050 8000
+Wire Wire Line
+	7400 6700 7400 7000
+Wire Wire Line
+	3500 6750 4900 6750
+Wire Wire Line
+	7050 6350 8200 6350
+Text Label 8200 6350 2    50   ~ 0
+Vcc3V3
+Text Notes 7150 7400 0    50   ~ 0
+Levelshifter 5V domain into 3V3 domain\n(2-Input NAND,with ~A~, B tied up)
+$Comp
+L Device:R R215
+U 1 1 6318A2F0
+P 8350 6800
+F 0 "R215" V 8450 6800 50  0000 C CNN
+F 1 "120R" V 8550 6800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8280 6800 50  0001 C CNN
+F 3 "~" H 8350 6800 50  0001 C CNN
+	1    8350 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8500 6800 8750 6800
 $EndSCHEMATC

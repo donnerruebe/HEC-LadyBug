@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
-Title "Marienkäfer HEC-Basis-Bord: One-Wire-Interface"
+Sheet 3 5
+Title "Marienkaefer HEC-Basis-Bord: One-Wire-Interface"
 Date ""
 Rev "0001"
 Comp "MTRONIG GmbH&Co.KG"
@@ -116,11 +116,12 @@ $EndComp
 Wire Wire Line
 	5500 4950 5500 4900
 $Comp
-L Device:EMI_Filter_LCL FL?
+L Device:Filter_EMI_LCL FL?
 U 1 1 60830233
 P 6500 4100
 AR Path="/6037F603/60830233" Ref="FL?"  Part="1" 
 AR Path="/6082A275/60830233" Ref="FL502"  Part="1" 
+AR Path="/60830233" Ref="FL502"  Part="1" 
 F 0 "FL502" H 6500 4417 50  0000 C CNN
 F 1 "NFE61P681B1H9L" H 6500 4326 50  0000 C CNN
 F 2 "Filter_MT:Murata_NFE61P" V 6500 4100 50  0001 C CNN
@@ -145,11 +146,12 @@ F 3 "" H 7500 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL?
+L Device:Filter_EMI_LCL FL?
 U 1 1 60830241
 P 7050 3350
 AR Path="/6037F603/60830241" Ref="FL?"  Part="1" 
 AR Path="/6082A275/60830241" Ref="FL501"  Part="1" 
+AR Path="/60830241" Ref="FL501"  Part="1" 
 F 0 "FL501" H 7050 3667 50  0000 C CNN
 F 1 "NFE61P681B1H9L" H 7050 3576 50  0000 C CNN
 F 2 "Filter_MT:Murata_NFE61P" V 7050 3350 50  0001 C CNN
@@ -157,21 +159,6 @@ F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/e
 	1    7050 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 60830247
-P 5950 2750
-AR Path="/6037F603/60830247" Ref="#PWR?"  Part="1" 
-AR Path="/6082A275/60830247" Ref="#PWR0501"  Part="1" 
-F 0 "#PWR0501" H 5950 2600 50  0001 C CNN
-F 1 "+5V" H 5965 2923 50  0000 C CNN
-F 2 "" H 5950 2750 50  0001 C CNN
-F 3 "" H 5950 2750 50  0001 C CNN
-	1    5950 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 2750 5950 2800
 Wire Wire Line
 	5950 2800 6500 2800
 Wire Wire Line
@@ -419,19 +406,6 @@ F 3 "" H 4700 6300 50  0001 C CNN
 	1    4700 6300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 608302CB
-P 4750 5350
-AR Path="/6037F603/608302CB" Ref="#PWR?"  Part="1" 
-AR Path="/6082A275/608302CB" Ref="#PWR0505"  Part="1" 
-F 0 "#PWR0505" H 4750 5200 50  0001 C CNN
-F 1 "+5V" H 4765 5523 50  0000 C CNN
-F 2 "" H 4750 5350 50  0001 C CNN
-F 3 "" H 4750 5350 50  0001 C CNN
-	1    4750 5350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 5500 4350 5450
 Wire Wire Line
@@ -466,8 +440,8 @@ L Transistor_FET:BSS123 Q?
 U 1 1 608302E1
 P 2750 5700
 AR Path="/6037F603/608302E1" Ref="Q?"  Part="1" 
-AR Path="/6082A275/608302E1" Ref="Q501"  Part="1" 
-F 0 "Q501" V 2999 5700 50  0000 C CNN
+AR Path="/6082A275/608302E1" Ref="T502"  Part="1" 
+F 0 "T502" V 2999 5700 50  0000 C CNN
 F 1 "BSS123" V 3090 5700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2950 5625 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/ds30366.pdf" H 2750 5700 50  0001 L CNN
@@ -477,21 +451,6 @@ $EndComp
 Wire Wire Line
 	2950 5800 3400 5800
 Connection ~ 3400 5800
-$Comp
-L power:+3V3 #PWR?
-U 1 1 608302E9
-P 2750 5050
-AR Path="/6037F603/608302E9" Ref="#PWR?"  Part="1" 
-AR Path="/6082A275/608302E9" Ref="#PWR0504"  Part="1" 
-F 0 "#PWR0504" H 2750 4900 50  0001 C CNN
-F 1 "+3V3" H 2765 5223 50  0000 C CNN
-F 2 "" H 2750 5050 50  0001 C CNN
-F 3 "" H 2750 5050 50  0001 C CNN
-	1    2750 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 5050 2750 5200
 Wire Wire Line
 	2550 5800 2350 5800
 Text Label 1800 5800 0    50   ~ 0
@@ -550,7 +509,6 @@ Wire Wire Line
 	2750 5200 2350 5200
 Wire Wire Line
 	2350 5200 2350 5400
-Connection ~ 2750 5200
 Wire Wire Line
 	2750 5200 2750 5500
 Wire Wire Line
@@ -586,8 +544,14 @@ Wire Wire Line
 	2550 2800 4300 2800
 Connection ~ 4300 2800
 Text HLabel 1700 5200 0    50   Input ~ 0
-3V
+3V3
 Wire Wire Line
 	1700 5200 2350 5200
 Connection ~ 2350 5200
+Text Label 3150 2800 0    50   ~ 0
+Vcc5V
+Text Label 1850 5200 0    50   ~ 0
+Vcc3V3
+Text Label 4750 5350 0    50   ~ 0
+Vcc5V
 $EndSCHEMATC
