@@ -1,0 +1,615 @@
+.HEA
+.TIM Do 07 Jan 2021 21:51:41 CET
+.APP "Eeschema 5.1.8"
+.TYP FULL
+
+.ADD_COM     J101     "Micromatch_12p"     "Connectors_MicroMatch_MT:ConnectorMicromatch-12-horizontal-THT"
+.ADD_COM     J102     "Micromatch_10p"     "Connectors_MicroMatch_MT:ConnectorMicromatch-10-SMD-polarized"
+.ADD_COM     J103     "Micromatch_8p"     "Connectors_MicroMatch_MT:ConnectorMicromatch-8-horizontal-THT"
+.ADD_COM     IC201     "LMR14206"     "Package_TO_SOT_SMD:SOT-23-6"
+.ADD_COM     C204     "10uF_50V_X5R_X7R"     "Capacitor_SMD:C_1206_3216Metric"
+.ADD_COM     C203     "47uF_10V_X5R_X7R"     "Capacitor_SMD:C_1210_3225Metric"
+.ADD_COM     C201     "1uF_50V_X5R_X7R"     "Capacitor_SMD:C_0805_2012Metric"
+.ADD_COM     R201     "301k"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R204     "1k02_1%"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R203     "5k62_1%"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     D201     "MBRS140"     "Diode_SMD:D_SMB"
+.ADD_COM     L201     "15uH,_1A_WE_744053150"     "Inductor_SMD:L_Wuerth_WE-TPC-3816"
+.ADD_COM     IC202     "LTC3406ES5"     "Package_TO_SOT_SMD:TSOT-23-5"
+.ADD_COM     C207     "4.7uF_10V_X5R_X7R"     "Capacitor_SMD:C_0805_2012Metric"
+.ADD_COM     FL202     "NFE61P681B1H9L"     "Filter_MT:Murata_NFE61P"
+.ADD_COM     FL203     "NFE61P681B1H9L"     "Filter_MT:Murata_NFE61P"
+.ADD_COM     FL201     "NFE61P681B1H9L"     "Filter_MT:Murata_NFE61P"
+.ADD_COM     L202     "2,2uH,_1,15A,_0R105_WE_744029002"     "Inductor_SMD:L_Wuerth_WE-TPC-3816"
+.ADD_COM     C206     "4.7uF_10V_X5R_X7R"     "Capacitor_SMD:C_0805_2012Metric"
+.ADD_COM     C205     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C210     "4.7uF_10V_X5R_X7R"     "Capacitor_SMD:C_0805_2012Metric"
+.ADD_COM     C209     "4.7uF_10V_X5R_X7R"     "Capacitor_SMD:C_0805_2012Metric"
+.ADD_COM     C208     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     R205     "301k_1%"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     C211     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     R207     "66k5_1%"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     IC204     "TPS3307-33"     "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+.ADD_COM     JP201     "SolderJumper_2_Open"     "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+.ADD_COM     R208     "66k5_1%"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R210     "10k_1%"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     C212     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     IC203     "74LVC1G57"     "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+.ADD_COM     C213     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     D204     "LED"     "LED_SMD:LED_0603_1608Metric"
+.ADD_COM     R209     "330R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     C214     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C215     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     D202     "LED"     "LED_SMD:LED_0603_1608Metric"
+.ADD_COM     R202     "330R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     D203     "LED"     "LED_SMD:LED_0603_1608Metric"
+.ADD_COM     R206     "120R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R211     "10k_1%"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R212     "2k4_1%"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     C223     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     R213     "10k_1%"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R214     "4k7_1%"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     C224     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     IC205     "STM32F103C8Tx"     "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+.ADD_COM     C218     "4.7uF_10V_X5R_X7R"     "Capacitor_SMD:C_0805_2012Metric"
+.ADD_COM     C219     "4.7uF_10V_X5R_X7R"     "Capacitor_SMD:C_0805_2012Metric"
+.ADD_COM     C220     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C221     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C222     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C216     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C217     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C202     "10uF_50V_X5R_X7R"     "Capacitor_SMD:C_1206_3216Metric"
+.ADD_COM     J304     "AKL-166-02"     "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06302HBWC_1x02_P3.50mm_Horizontal"
+.ADD_COM     IC301     "MAX485E"     "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+.ADD_COM     C304     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     L302     "WE_744220"     "Inductor_SMD:L_CommonMode_Wuerth_WE-SL2"
+.ADD_COM     C305     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     L301     "WE_744227"     "Inductor_SMD:L_CommonMode_Wuerth_WE-SL2"
+.ADD_COM     D302     "WE_824022"     "Package_TO_SOT_SMD:SOT-23"
+.ADD_COM     J303     "AKL-166-03"     "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06303HBWC_1x03_P3.50mm_Horizontal"
+.ADD_COM     F301     "ESKA_BSMD1206-SS0.5"     "Resistor_SMD:R_1206_3216Metric"
+.ADD_COM     J301     "AKL-166-03"     "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06303HBWC_1x03_P3.50mm_Horizontal"
+.ADD_COM     R307     "2k4"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R304     "2k4"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R306     "4k7"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     IC302     "74LVC1G57"     "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+.ADD_COM     C303     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     D304     "LED"     "LED_SMD:LED_0603_1608Metric"
+.ADD_COM     D301     "LED"     "LED_SMD:LED_0603_1608Metric"
+.ADD_COM     R303     "330R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R308     "330R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     D305     "P6SMB30CA"     "Diode_SMD:D_SMB"
+.ADD_COM     C302     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     E305     "SPARK_GAP"     "SparkGaps_MT:SparkGap_3pin_0.67x0.5mm"
+.ADD_COM     E303     "SPARK_GAP"     "SparkGaps_MT:SparkGap_3pin_0.67x0.5mm"
+.ADD_COM     E304     "SPARK_GAP"     "SparkGaps_MT:SparkGap_3pin_0.67x0.5mm"
+.ADD_COM     E301     "SPARK_GAP"     "SparkGaps_MT:SparkGap_3pin_0.67x0.5mm"
+.ADD_COM     E302     "SPARK_GAP"     "SparkGaps_MT:SparkGap_3pin_0.67x0.5mm"
+.ADD_COM     D303     "MBRS140"     "Diode_SMD:D_SMB"
+.ADD_COM     J302     "Conn_01x03_Male"     "$noname"
+.ADD_COM     R301     "360"     "$noname"
+.ADD_COM     R302     "360"     "$noname"
+.ADD_COM     R305     "360"     "$noname"
+.ADD_COM     C301     "1uF"     "$noname"
+.ADD_COM     F302     "ESKA_BSMD1206-SS0.5"     "Resistor_SMD:R_1206_3216Metric"
+.ADD_COM     F303     "ESKA_BSMD1206-SS0.5"     "Resistor_SMD:R_1206_3216Metric"
+.ADD_COM     XTAL401     "HC49-SMD_8,000_MHz"     "Crystal:Crystal_SMD_HC49-SD"
+.ADD_COM     C402     "15pF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     C403     "15pF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     R411     "4k7"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     TP401     "TMS"     "TestPoint:TestPoint_Pad_D1.0mm"
+.ADD_COM     TP404     "TCK"     "TestPoint:TestPoint_Pad_D1.0mm"
+.ADD_COM     TP402     "TRST"     "TestPoint:TestPoint_Pad_D1.0mm"
+.ADD_COM     TP403     "SRST"     "TestPoint:TestPoint_Pad_D1.0mm"
+.ADD_COM     TP405     "TDI"     "TestPoint:TestPoint_Pad_D1.0mm"
+.ADD_COM     TP406     "TDO"     "TestPoint:TestPoint_Pad_D1.0mm"
+.ADD_COM     J402     "Cortex-Debug_WSL_2x5_RM1.27"     "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
+.ADD_COM     JP403     "SolderJumper_2_Open"     "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+.ADD_COM     D401     "LED_rot"     "LED_SMD:LED_0603_1608Metric"
+.ADD_COM     D402     "LED_gruen"     "LED_SMD:LED_0603_1608Metric"
+.ADD_COM     R409     "120R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R410     "120R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     JP402     "SolderJumper_2_Open"     "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+.ADD_COM     R408     "4k7"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     J401     "Micromatch_6p"     "Connectors_MicroMatch_MT:ConnectorMicromatch-6-SMD-polarized"
+.ADD_COM     C401     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     R401     "4k7"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R402     "4k7"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R404     "4k7"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R403     "4k7"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R406     "1k"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R407     "1k"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R405     "4k7"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     JP401     "SolderJumper_2_Open"     "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+.ADD_COM     IC501     "DS2482S-100"     "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+.ADD_COM     T501     "BSS84"     "Package_TO_SOT_SMD:SOT-23"
+.ADD_COM     R501     "22R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R503     "22R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     C503     "10nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     FL502     "NFE61P681B1H9L"     "Filter_MT:Murata_NFE61P"
+.ADD_COM     FL501     "NFE61P681B1H9L"     "Filter_MT:Murata_NFE61P"
+.ADD_COM     D501     "P6SM6A"     "Diode_SMD:D_SMB"
+.ADD_COM     D502     "P6SM6A"     "Diode_SMD:D_SMB"
+.ADD_COM     R502     "22R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     C502     "10uF"     "Capacitor_SMD:C_0805_2012Metric"
+.ADD_COM     C501     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     R504     "22R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     R505     "22R"     "Resistor_SMD:R_0603_1608Metric"
+.ADD_COM     IC502     "DS18B20"     "Package_TO_SOT_THT:TO-92_Inline"
+.ADD_COM     C504     "100nF"     "Capacitor_SMD:C_0603_1608Metric"
+.ADD_COM     Q501     "BSS123"     "Package_TO_SOT_SMD:SOT-23"
+.ADD_COM     IC503     "DS28E25"     "Package_TO_SOT_THT:TO-92-2"
+.ADD_COM     R506     "1k"     "Resistor_SMD:R_0603_1608Metric"
+
+
+.ADD_TER   FL201   1     "+24V"
+.TER       L302   1
+            J102   2
+            C305   2
+
+.ADD_TER   R304   1     "+3V3"
+.TER       R402   1
+            R401   1
+            C207   2
+            IC202   4
+            IC202   1
+            R303   2
+            R408   1
+            J401   2
+            C213   2
+            IC203   5
+            IC203   6
+            C304   1
+            C220   2
+            IC205   1
+            R211   2
+            R206   1
+            C221   2
+            C222   2
+            R301   1
+            R202   1
+            C216   2
+            C217   2
+            C301   1
+            R213   2
+            C218   2
+            C303   1
+            IC205   24
+            IC302   5
+            IC205   36
+            IC205   48
+            IC205   9
+            C219   2
+            IC301   8
+            Q501   1
+            IC204   1
+            IC204   8
+            R506   1
+            R501   1
+            IC204   2
+            C501   1
+            C212   2
+            C401   1
+            FL501   1
+            IC501   1
+            C205   2
+            C206   2
+            R407   1
+            J101   2
+            JP403   1
+            FL202   3
+            FL203   3
+            J101   3
+            R403   1
+            R405   1
+            R404   1
+            R406   1
+            IC502   3
+            C504   1
+
+.ADD_TER   C224   1     "GND"
+.TER       R210   1
+            C222   1
+            C216   1
+            C212   1
+            C215   1
+            C217   1
+            IC202   2
+            C207   1
+            C204   2
+            D201   2
+            IC205   35
+            R204   1
+            JP201   2
+            IC205   47
+            IC205   8
+            C218   1
+            C203   2
+            IC204   4
+            C219   1
+            IC201   2
+            C205   1
+            C208   1
+            C220   1
+            C209   1
+            C210   1
+            IC205   23
+            C206   1
+            FL201   2
+            FL203   2
+            FL202   2
+            C504   2
+            IC502   1
+            R504   2
+            R411   2
+            JP402   2
+            D401   1
+            R505   2
+            D402   1
+            J402   9
+            J402   5
+            J402   3
+            C501   2
+            D501   2
+            D502   2
+            C502   2
+            IC503   3
+            C503   2
+            FL502   2
+            FL501   2
+            IC501   3
+            C202   1
+            R212   1
+            D204   1
+            C214   1
+            IC203   3
+            C213   1
+            D203   1
+            D202   1
+            R214   1
+            IC203   2
+            C223   1
+            C401   2
+            J401   1
+            C403   2
+            C402   2
+            C221   1
+            IC301   4
+            IC301   5
+            C304   2
+            L302   3
+            C305   1
+            F301   1
+            IC301   2
+            IC302   6
+            IC302   1
+            IC302   2
+            D302   3
+            F302   1
+            R305   2
+            R308   2
+            E301   2
+            E302   2
+            J302   1
+            C301   2
+            J103   1
+            J103   3
+            J103   8
+            J101   4
+            J102   8
+            J102   1
+            J102   3
+            R307   2
+            C303   2
+            J101   1
+            E303   2
+            E304   2
+            R207   1
+
+.ADD_TER   FL502   3     "/1WireIO"
+.TER       J102   9
+            D502   1
+
+.ADD_TER   C502   1     "/1WirePower"
+.TER       R502   2
+            J102   10
+            D501   1
+
+.ADD_TER   J103   6     "/Microcontroller/PA2_GPIO_U2TX_AIN2"
+.TER       IC205   12
+
+.ADD_TER   IC205   11     "/Microcontroller/PA1_GPIO_U2RTS_AIN1"
+.TER       J103   5
+
+.ADD_TER   IC205   10     "/Microcontroller/PA0_GPIO_U2CTS_AIN0"
+.TER       J103   4
+
+.ADD_TER   IC205   18     "/Microcontroller/PB0_GPIO_AIN8"
+.TER       J103   2
+
+.ADD_TER   IC205   25     "/Microcontroller/PB12_SPI_~CS~_FT"
+.TER       JP401   2
+            J101   12
+
+.ADD_TER   J101   11     "/Microcontroller/PB13_SPI_CLK_FT"
+.TER       IC205   26
+
+.ADD_TER   IC205   27     "/Microcontroller/PB14_SPI_MISO_FT"
+.TER       J101   10
+
+.ADD_TER   IC205   28     "/Microcontroller/PB15_SPI_MOSI_FT"
+.TER       J101   9
+
+.ADD_TER   J101   8     "/Microcontroller/PA8_GPIO_MCO_FT"
+.TER       IC205   29
+
+.ADD_TER   J101   7     "/Microcontroller/PB5_GPIO_FT"
+.TER       IC205   41
+
+.ADD_TER   J103   7     "/Microcontroller/PA3_GPIO_U2RX_AIN3"
+.TER       IC205   13
+
+.ADD_TER   IC205   43     "/SDA"
+.TER       J101   5
+            R406   2
+            IC501   5
+
+.ADD_TER   IC301   1     "/Microcontroller/HEC-Bitstream-in"
+.TER       IC205   22
+            D301   1
+
+.ADD_TER   IC205   21     "/Microcontroller/HEC-Bitstream-out"
+.TER       R408   2
+            IC302   3
+
+.ADD_TER   J402   10     "/Microcontroller/~RESET~"
+.TER       TP403   1
+            IC203   4
+            IC205   7
+
+.ADD_TER   R208   1     "/Stromversorgung/Vcc24VSNS_1.25Vref"
+.TER       IC204   3
+            C214   2
+            IC205   14
+            R210   2
+
+.ADD_TER   R212   2     "/Stromversorgung/Vcc5VSNS_1.20Vref"
+.TER       IC205   15
+            C223   2
+            R211   1
+
+.ADD_TER   IC205   16     "/Stromversorgung/Vcc3V3SNS_1.20Vref"
+.TER       C224   2
+            R213   1
+            R214   2
+
+.ADD_TER   IC501   4     "/SCL"
+.TER       IC205   42
+            J101   6
+            R407   2
+
+.ADD_TER   R307   1     "Net-(D302-Pad1)"
+.TER       R306   1
+            D302   1
+            L301   3
+            IC301   7
+
+.ADD_TER   R304   2     "Net-(D302-Pad2)"
+.TER       D302   2
+            IC301   6
+            R306   2
+            L301   1
+
+.ADD_TER   D303   1     "Net-(D303-Pad1)"
+.TER       L302   2
+
+.ADD_TER   J301   1     "Net-(F301-Pad2)"
+.TER       F301   2
+
+.ADD_TER   F303   2     "Net-(F303-Pad2)"
+.TER       J304   1
+
+.ADD_TER   J303   1     "Net-(F302-Pad2)"
+.TER       F302   2
+
+.ADD_TER   R301   2     "Net-(J302-Pad2)"
+.TER       R302   1
+            J302   2
+
+.ADD_TER   J302   3     "Net-(J302-Pad3)"
+.TER       R305   1
+            R302   2
+
+.ADD_TER   D301   2     "Net-(D301-Pad2)"
+.TER       R303   1
+
+.ADD_TER   IC302   4     "Net-(D304-Pad2)"
+.TER       D304   2
+            IC301   3
+
+.ADD_TER   C302   2     "Net-(C302-Pad2)"
+.TER       E305   1
+            F303   1
+            D305   2
+            L302   4
+
+.ADD_TER   R308   1     "Net-(D304-Pad1)"
+.TER       D304   1
+
+.ADD_TER   E302   1     "Net-(E302-Pad1)"
+.TER       L301   4
+            E304   1
+            J303   3
+            J301   3
+
+.ADD_TER   E303   1     "Net-(E301-Pad1)"
+.TER       J303   2
+            L301   2
+            E301   1
+            J301   2
+
+.ADD_TER   D303   2     "Net-(C302-Pad1)"
+.TER       D305   1
+            C302   1
+            J304   2
+            E305   2
+
+.ADD_TER   R205   2     "Net-(C211-Pad1)"
+.TER       C211   1
+            R207   2
+            IC202   5
+
+.ADD_TER   C204   1     "/Stromversorgung/Vcc24V"
+.TER       FL201   3
+            IC201   5
+            R208   2
+            R201   1
+
+.ADD_TER   C215   2     "Net-(C215-Pad2)"
+.TER       JP201   1
+            IC204   7
+
+.ADD_TER   IC201   1     "Net-(C201-Pad2)"
+.TER       C201   2
+
+.ADD_TER   R204   2     "Net-(IC201-Pad3)"
+.TER       IC201   3
+            R203   2
+
+.ADD_TER   C201   1     "Net-(C201-Pad1)"
+.TER       L201   1
+            IC201   6
+            D201   1
+
+.ADD_TER   IC201   4     "Net-(C202-Pad2)"
+.TER       R201   2
+            C202   2
+
+.ADD_TER   L201   2     "Net-(C203-Pad1)"
+.TER       FL202   1
+            R203   1
+            C203   1
+
+.ADD_TER   IC202   3     "Net-(IC202-Pad3)"
+.TER       L202   1
+
+.ADD_TER   C210   2     "Net-(C208-Pad2)"
+.TER       R205   1
+            FL203   1
+            C209   2
+            C211   2
+            L202   2
+            C208   2
+
+.ADD_TER   R202   2     "Net-(D202-Pad2)"
+.TER       D202   2
+
+.ADD_TER   R206   2     "Net-(D203-Pad2)"
+.TER       D203   2
+
+.ADD_TER   R209   1     "Net-(IC204-Pad6)"
+.TER       IC204   6
+
+.ADD_TER   D204   2     "Net-(D204-Pad2)"
+.TER       R209   2
+
+.ADD_TER   IC203   1     "Net-(IC203-Pad1)"
+.TER       IC204   5
+
+.ADD_TER   J401   3     "Net-(IC205-Pad32)"
+.TER       IC205   32
+            R402   2
+
+.ADD_TER   J401   4     "Net-(IC205-Pad30)"
+.TER       IC205   30
+            R404   2
+
+.ADD_TER   IC205   37     "/Microcontroller/SWDCLK_TCK"
+.TER       TP404   1
+            J402   4
+
+.ADD_TER   IC205   34     "/Microcontroller/SWDIO_TMS"
+.TER       TP401   1
+            J402   2
+
+.ADD_TER   IC205   33     "Net-(IC205-Pad33)"
+.TER       J401   6
+            R401   2
+
+.ADD_TER   IC205   4     "Net-(IC205-Pad4)"
+.TER       JP402   1
+
+.ADD_TER   IC205   31     "Net-(IC205-Pad31)"
+.TER       J401   5
+            R403   2
+
+.ADD_TER   JP401   1     "Net-(JP401-Pad1)"
+.TER       R405   2
+
+.ADD_TER   TP402   1     "/Microcontroller/~TRST~"
+.TER       IC205   40
+
+.ADD_TER   C402   1     "Net-(C402-Pad1)"
+.TER       IC205   6
+            XTAL401   1
+
+.ADD_TER   C403   1     "Net-(C403-Pad1)"
+.TER       XTAL401   2
+            IC205   5
+
+.ADD_TER   IC205   44     "Net-(IC205-Pad44)"
+.TER       R411   1
+
+.ADD_TER   TP406   1     "/Microcontroller/TDO"
+.TER       J402   6
+            IC205   39
+
+.ADD_TER   J402   8     "/Microcontroller/TDI"
+.TER       IC205   38
+            TP405   1
+
+.ADD_TER   D401   2     "Net-(D401-Pad2)"
+.TER       R409   2
+
+.ADD_TER   IC205   3     "Net-(IC205-Pad3)"
+.TER       R409   1
+
+.ADD_TER   R410   2     "Net-(D402-Pad2)"
+.TER       D402   2
+
+.ADD_TER   IC205   2     "Net-(IC205-Pad2)"
+.TER       R410   1
+
+.ADD_TER   J402   1     "Net-(J402-Pad1)"
+.TER       JP403   2
+
+.ADD_TER   R504   1     "Net-(IC501-Pad8)"
+.TER       IC501   8
+
+.ADD_TER   IC501   7     "Net-(IC501-Pad7)"
+.TER       R505   1
+
+.ADD_TER   IC503   1     "/One-Wire-Devices/1Wire_3V3"
+.TER       Q501   2
+            R506   2
+
+.ADD_TER   IC501   6     "Net-(IC501-Pad6)"
+.TER       T501   1
+
+.ADD_TER   Q501   3     "/One-Wire-Devices/1Wire_5V"
+.TER       IC502   2
+            C503   1
+            R503   2
+            IC501   2
+
+.ADD_TER   R501   2     "Net-(R501-Pad2)"
+.TER       T501   2
+
+.ADD_TER   R503   1     "Net-(FL502-Pad1)"
+.TER       FL502   1
+            T501   3
+
+.ADD_TER   R502   1     "Net-(FL501-Pad3)"
+.TER       FL501   3
+
+.END

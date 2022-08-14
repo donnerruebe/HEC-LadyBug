@@ -1,4 +1,4 @@
-update=Mi 30 Dez 2020 19:56:17 CET
+update=Do 07 Jan 2021 21:50:50 CET
 version=1
 last_client=kicad
 [general]
@@ -37,7 +37,7 @@ PageLayoutDescrFile=${KIPRJMOD}/../mt-common-libs/_pagelayout_.kicad_wks
 PlotDirectoryName=../../SLP/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
