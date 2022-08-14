@@ -1430,7 +1430,7 @@ Wire Wire Line
 Text Label 8200 6350 2    50   ~ 0
 Vcc3V3
 Text Notes 7150 7400 0    50   ~ 0
-Levelshifter 5V domain into 3V3 domain\n(2-Input NAND,with ~A~, B tied up)
+Levelshifter 5V domain into 3V3 domain\n(2-Input NAND with ~A~, B tied up)
 $Comp
 L Device:R R215
 U 1 1 6318A2F0
